@@ -22,6 +22,8 @@ import { Netflixmylist } from './component/Netflixmylist';
 import { Netflixsearch } from './component/Netflixsearch';
 import { ErrorNotfound } from './component/ErrorNotfound';
 import { Watch } from './component/Watch';
+import { Teams } from './component/Teams';
+import { TeamDetails } from './component/TeamDetails';
 
 //import './App.css'
 
@@ -41,6 +43,8 @@ function App() {
       <Route path='/netflixsearch' element={<Netflixsearch/>}></Route>
       <Route path='/watch/:name' element={<Watch/>}></Route>
       <Route path='/*' element={<ErrorNotfound/>}></Route>
+      <Route path='/teams' element={<Teams/>}></Route>
+      <Route path='/teamdetails/:name' element={<TeamDetails/>}></Route>
     </Routes> 
     </div>
   )
