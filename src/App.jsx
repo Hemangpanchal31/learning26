@@ -9,6 +9,17 @@ import { MapDemo2 } from './component/MapDemo2';
 import { MapDemo3 } from './component/MapDemo3';
 import { MapDemo4 } from './component/MapDemo4';
 import { MapDemo5 } from './component/MapDemo5';
+import { MapDemo6 } from './component/MapDemo6';
+import { MapDemo7 } from './component/MapDemo7';
+import { Route, Routes } from 'react-router-dom';
+import {NetflixHome} from './component/NetflixHome'
+import { Netflixshows } from './component/Netflixshows';
+import { Netflixmovies } from './component/Netflixmovies';
+import { HomeComponent } from './component/HomeComponent';
+import { Navbar } from './component/Navbar';
+import { Netflixlatest } from './component/Netflixlatest';
+import { Netflixmylist } from './component/Netflixmylist';
+import { Netflixsearch } from './component/Netflixsearch';
 //import './App.css'
 
 function App() {
@@ -16,9 +27,16 @@ function App() {
   return (
     
     <div>
-      <HeaderComponent/>
-      <MapDemo5/>
-      <FooterComponent/>   
+    <Navbar/>
+     <Routes>
+      <Route path='/netflixhome' element={<NetflixHome/>}></Route>
+      <Route path='/netflixshows' element={<Netflixshows/>}></Route>
+      <Route path='/netflixmovies' element={<Netflixmovies/>}></Route>
+      <Route path='/' element={<HomeComponent/>}></Route>
+      <Route path='/netflixlatest' element={<Netflixlatest/>}></Route>
+      <Route path='/netflixmylist' element={<Netflixmylist/>}></Route>
+      <Route path='/netflixsearch' element={<Netflixsearch/>}></Route>
+    </Routes> 
     </div>
   )
 }
