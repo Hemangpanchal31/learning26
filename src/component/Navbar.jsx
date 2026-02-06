@@ -49,6 +49,19 @@ export const Navbar = () => {
             <li>
                 <Link className="nav-link" to="/teams">IPLTeam</Link>
             </li>
+            <li>
+                <Link className="nav-link" to="/functiondemo1">FuncDemo1</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/usestatedemo1">Ustatedemo1</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/usestatedemo2">Ustatedemo2</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/usestatedemo3">Ustatedemo3</Link>
+            </li>
+
           </ul>
         </div>
       </nav>
