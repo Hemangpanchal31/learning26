@@ -64,6 +64,9 @@ export const Navbar = () => {
             <li>
                 <Link className="nav-link" to="/employees">Employees</Link>
             </li>
+            <li>
+                <Link className="nav-link" to="/change">Change</Link>
+            </li>
 
           </ul>
         </div>
