@@ -30,6 +30,7 @@ import { UsestateDemo3 } from './component/UsestateDemo3';
 import { FunctionDemo1 } from './component/FunctionDemo1';
 import { Employees } from './component/Employees';
 import { Change } from './component/Change';
+import { FormDemo1 } from './component/form/FormDemo1';
 
 //import './App.css'
 
@@ -57,6 +58,7 @@ function App() {
       <Route path='/usestatedemo3' element={<UsestateDemo3/>}></Route>
       <Route path='/employees' element={<Employees/>}></Route>
       <Route path='/change' element={<Change/>}></Route>
+      <Route path='/formdemo1' element={<FormDemo1/>}></Route>
     </Routes> 
     </div>
   )
