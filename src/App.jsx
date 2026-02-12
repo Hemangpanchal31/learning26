@@ -31,6 +31,9 @@ import { FunctionDemo1 } from './component/FunctionDemo1';
 import { Employees } from './component/Employees';
 import { Change } from './component/Change';
 import { FormDemo1 } from './component/form/FormDemo1';
+import { FormDemo2 } from './component/form/FormDemo2';
+import { FormDemo3 } from './component/form/FormDemo3';
+import { FormDemo4 } from './component/form/FormDemo4';
 
 //import './App.css'
 
@@ -59,6 +62,9 @@ function App() {
       <Route path='/employees' element={<Employees/>}></Route>
       <Route path='/change' element={<Change/>}></Route>
       <Route path='/formdemo1' element={<FormDemo1/>}></Route>
+      <Route path='/formdemo2' element={<FormDemo2/>}></Route>
+      <Route path='/formdemo3' element={<FormDemo3/>}></Route>
+      <Route path='/formdemo4' element={<FormDemo4/>}></Route>
     </Routes> 
     </div>
   )
