@@ -5,9 +5,6 @@ export const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,12 +19,17 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
+            {/* <li className="nav-item active">
               <Link className="nav-link" to="/netflixhome">
                 Netflix Home
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixshows">
                 Shows
               </Link>
@@ -42,13 +44,13 @@ export const Navbar = () => {
             </li>
             <li>
                 <Link className="nav-link" to="/netflixmylist">My List</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <Link className="nav-link" to="/netflixsearch">Search</Link>
             </li>
             <li>
                 <Link className="nav-link" to="/teams">IPLTeam</Link>
-            </li>
+            </li> */}
             <li>
                 <Link className="nav-link" to="/functiondemo1">FuncDemo1</Link>
             </li>
@@ -78,6 +80,15 @@ export const Navbar = () => {
             </li>
             <li>
                 <Link className="nav-link" to="/formdemo4">FormDemo4</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/formvalidation1">FormValidation1</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/formvalidation2">FormValidation2</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/formvalidation3">FormValidation3</Link>
             </li>
 
           </ul>

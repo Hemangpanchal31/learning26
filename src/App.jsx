@@ -34,6 +34,9 @@ import { FormDemo1 } from './component/form/FormDemo1';
 import { FormDemo2 } from './component/form/FormDemo2';
 import { FormDemo3 } from './component/form/FormDemo3';
 import { FormDemo4 } from './component/form/FormDemo4';
+import { FormValidation1 } from './component/form/FormValidation1';
+import { FormValidation2 } from './component/form/FormValidation2';
+import { FormValidation3 } from './component/form/FormValidation3';
 
 //import './App.css'
 
@@ -65,6 +68,9 @@ function App() {
       <Route path='/formdemo2' element={<FormDemo2/>}></Route>
       <Route path='/formdemo3' element={<FormDemo3/>}></Route>
       <Route path='/formdemo4' element={<FormDemo4/>}></Route>
+      <Route path='/formvalidation1' element={<FormValidation1/>}></Route>
+      <Route path='/formvalidation2' element={<FormValidation2/>}></Route>
+      <Route path='/formvalidation3' element={<FormValidation3/>}></Route>
     </Routes> 
     </div>
   )
