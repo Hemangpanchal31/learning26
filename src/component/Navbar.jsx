@@ -54,7 +54,7 @@ export const Navbar = () => {
             <li>
                 <Link className="nav-link" to="/functiondemo1">FuncDemo1</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link className="nav-link" to="/usestatedemo1">Ustatedemo1</Link>
             </li>
             <li>
@@ -62,25 +62,31 @@ export const Navbar = () => {
             </li>
             <li>
                 <Link className="nav-link" to="/usestatedemo3">Ustatedemo3</Link>
-            </li>
+            </li> */}
             <li>
                 <Link className="nav-link" to="/employees">Employees</Link>
             </li>
             <li>
                 <Link className="nav-link" to="/change">Change</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link className="nav-link" to="/formdemo1">FormDemo1</Link>
             </li>
             <li>
                 <Link className="nav-link" to="/formdemo2">FormDemo2</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <Link className="nav-link" to="/formdemo3">FormDemo3</Link>
             </li>
             <li>
                 <Link className="nav-link" to="/formdemo4">FormDemo4</Link>
             </li>
+            <li>
+                <Link className="nav-link" to="/formdemo5">FormDemo5</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/formdemo6">FormDemo6</Link>
+            </li> */}
             <li>
                 <Link className="nav-link" to="/formvalidation1">FormValidation1</Link>
             </li>
@@ -90,7 +96,21 @@ export const Navbar = () => {
             <li>
                 <Link className="nav-link" to="/formvalidation3">FormValidation3</Link>
             </li>
-
+            <li>
+                <Link className="nav-link" to="/formvalidation4">FormValidation4</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/formvalidation">FormValidation</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/apidemo1">ApiDemo1</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/apitask1">Apitask1</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/apitask2">Apitask2</Link>
+            </li>
           </ul>
         </div>
       </nav>
