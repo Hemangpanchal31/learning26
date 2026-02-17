@@ -50,6 +50,15 @@ export const FormValidation4 = () => {
             message:"Invalid Email!"
         }
       },
+      Contact:{
+        required:{
+            value:true,
+            message:"Contact is Required*"
+        },
+        validate: (value) =>{
+            return /^[6-9]\d{9}$/.test(value) || "Enter valid Indian mobile number"
+        }
+      }
       
     }
   return (
@@ -77,7 +86,9 @@ export const FormValidation4 = () => {
                 {errors.email?.message}
             </div>
             <div>
-                
+                <label>Contact No :</label>
+                <input type='number' placeholder='Enter contact number' {...register("contact",validationSchema.Contact)}></input>
+                {errors.contact?.message}
             </div>
             <div>
                 <input type='submit'></input>
