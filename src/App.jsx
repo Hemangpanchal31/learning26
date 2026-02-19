@@ -48,6 +48,7 @@ import { OmdbSearch } from './component/Apis/OmdbSearch';
 import { MovieGrid } from './component/Apis/MovieGrid';
 import { MovieDetails } from './component/Apis/MovieDetails';
 import { MovieSearch } from './component/Apis/movieSearch';
+import { ApiDemo2 } from './component/Apis/ApiDemo2';
 
 //import './App.css'
 
@@ -93,6 +94,7 @@ function App() {
       <Route path='/moviegrid' element={<MovieGrid/>}></Route>
       <Route path='/moviedetails/:id' element={<MovieDetails/>}></Route>
       <Route path='/moviesearch' element={<MovieSearch/>}></Route>
+      <Route path='/apidemo2' element={<ApiDemo2/>}></Route>
     </Routes> 
     </div>
   )
