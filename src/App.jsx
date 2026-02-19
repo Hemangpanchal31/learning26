@@ -44,6 +44,10 @@ import { FormValidation } from './component/form/FormValidation';
 import { ApiDemo1 } from './component/Apis/ApiDemo1';
 import { Apitask1 } from './component/Apis/Apitask1';
 import { Apitask2 } from './component/Apis/Apitask2';
+import { OmdbSearch } from './component/Apis/OmdbSearch';
+import { MovieGrid } from './component/Apis/MovieGrid';
+import { MovieDetails } from './component/Apis/MovieDetails';
+import { MovieSearch } from './component/Apis/movieSearch';
 
 //import './App.css'
 
@@ -85,6 +89,10 @@ function App() {
       <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
       <Route path='/apitask1' element={<Apitask1/>}></Route>
       <Route path='/apitask2' element={<Apitask2/>}></Route>
+      <Route path='/omdbsearch' element={<OmdbSearch/>}></Route>
+      <Route path='/moviegrid' element={<MovieGrid/>}></Route>
+      <Route path='/moviedetails/:id' element={<MovieDetails/>}></Route>
+      <Route path='/moviesearch' element={<MovieSearch/>}></Route>
     </Routes> 
     </div>
   )

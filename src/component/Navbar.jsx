@@ -111,6 +111,15 @@ export const Navbar = () => {
             <li>
                 <Link className="nav-link" to="/apitask2">Apitask2</Link>
             </li>
+            <li>
+                <Link className="nav-link" to="/omdbsearch">OMDB Search</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/moviegrid">Movie Grid</Link>
+            </li>
+            <li>
+                <Link className="nav-link" to="/moviesearch">Movie Search</Link>
+            </li>
           </ul>
         </div>
       </nav>
